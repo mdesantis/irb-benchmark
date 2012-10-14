@@ -39,5 +39,5 @@ be taken in consideration.
 
 == Copyright
 
-Copyright (c) 2012 Maurizio De Santis. See License[LICENSE.txt] for
+Copyright (c) 2012 Maurizio De Santis. See LICENSE.txt for
 further details.
