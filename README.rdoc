@@ -17,11 +17,13 @@ In .irbrc :
 * normal require: <tt>require 'irb_benchmark'</tt>
 * irbtools option: <tt>Irbtools.add_library :irb_benchmark, :late => true</tt> 
 
+Enabling / disabling: <tt>IrbBenchmark.enabled = true / false</tt>
+
 == Wirb / irbtools integration
 
-It auto-detects Wirb[https://github.com/janlelis/wirb] presence for 
-colorized output and FancyIrb[https://github.com/janlelis/fancy_irb] 
-configuration (both are used by the well-known 
+It auto-detects Wirb[https://github.com/janlelis/wirb] presence and 
+FancyIrb[https://github.com/janlelis/fancy_irb] configuration for colorized 
+output (both are used by the well-known 
 irbtools[https://github.com/janlelis/irbtools] gem).
 
 == Known issues
