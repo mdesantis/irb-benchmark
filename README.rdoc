@@ -5,9 +5,11 @@
 It wraps irb evaluations in a <tt>Benchmark.measure{ ... }</tt> block and displays 
 the results after the command execution. Simple and powerful.
 
-== Usage
+== Installation
 
 <tt>gem install irb-benchmark</tt>
+
+== Usage
 
 Single shot usage: open irb and <tt>require 'irb_benchmark'</tt>
 
