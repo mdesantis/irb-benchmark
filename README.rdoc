@@ -15,8 +15,7 @@ Single shot usage: open irb and <tt>require 'irb_benchmark'</tt>
 
 In <tt>.irbrc</tt>:
 * classic require: <tt>require 'irb_benchmark'</tt>
-* irbtools option: <tt>Irbtools.add_library :irb_benchmark, :late => true</tt> 
-(require can be used with irbtools too)
+* irbtools option: <tt>Irbtools.add_library :irb_benchmark, :late => true</tt> (require can be used with irbtools too)
 
 Enabling / disabling: <tt>IrbBenchmark.enabled = true / false</tt>
 
