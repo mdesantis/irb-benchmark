@@ -8,12 +8,10 @@ module IrbBenchmark
 
     attr_accessor :enabled
 
-    if defined?(Wirb) and (!defined?(FancyIrb) || FancyIrb[:colorize, :output])
-      def print(bm)
+    def print(bm)
+      if defined?(Wirb) and (!defined?(FancyIrb) || FancyIrb[:colorize, :output])
         $stdout.print Wirb.colorize_result bm.inspect
-      end
-    else
-      def print(bm)
+      else
         $stdout.print bm.inspect
       end
     end
