@@ -2,18 +2,18 @@
 
 == Description
 
-It wraps irb commands in a +Benchmark.measure{ ... }+ block and displays 
+It wraps irb commands in a <tt>Benchmark.measure{ ... }</tt> block and displays 
 the results after the command execution. Simple and powerful.
 
 == Usage
 
-+gem install irb-benchmark+
+<tt>gem install irb-benchmark</tt>
 
-Single shot usage: open irb and +require 'irb_benchmark'+
+Single shot usage: open irb and <tt>require 'irb_benchmark'</tt>
 
 In .irbrc :
- * normal require: +require 'irb_benchmark'+
- * irbtools option: +Irbtools.add_library :irb_benchmark, :late => true+ (without the late option the output will be colorized as a string)
+* normal require: <tt>require 'irb_benchmark'</tt>
+* irbtools option: <tt>Irbtools.add_library :irb_benchmark, :late => true</tt> 
 
 == Wirb / irbtools integration
 
@@ -21,6 +21,11 @@ It auto-detects Wirb[https://github.com/janlelis/wirb] presence for
 colorized output and FancyIrb[https://github.com/janlelis/fancy_irb] 
 configuration (both are used by the well-known 
 irbtools[https://github.com/janlelis/irbtools] gem).
+
+== Known issues
+
+The usage with FancyIrb alters the benchmark measures adding a small overhead;
+I'm working on it.
 
 == Copyright
 
