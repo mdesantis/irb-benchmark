@@ -29,6 +29,12 @@ irbtools[https://github.com/janlelis/irbtools] gem).
 The usage with FancyIrb alters the benchmark measures adding a small overhead;
 I'm working on it.
 
+== Bugs, feature requests, pull requests
+
+Fell free to open an issue[https://github.com/ProGNOMmers/irb-benchmark/issues]
+for problems or feature requests, or fork it and make a pull request, it will
+be taken in consideration.
+
 == Copyright
 
 Copyright (c) 2012 Maurizio De Santis. See LICENSE.txt for
