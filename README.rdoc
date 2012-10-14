@@ -2,7 +2,7 @@
 
 == Description
 
-It wraps irb commands in a <tt>Benchmark.measure{ ... }</tt> block and displays 
+It wraps irb evaluations in a <tt>Benchmark.measure{ ... }</tt> block and displays 
 the results after the command execution. Simple and powerful.
 
 == Usage
