@@ -39,7 +39,7 @@ be taken in consideration.
 
 == Thanks to
 janlelis[https://github.com/janlelis] and its fancy_irb[https://github.com/janlelis/fancy_irb]
-which saved me from spend time to discover how to patch Irb :-)
+which saved me from spend time to discover how to monkey-patch Irb :-)
 
 == Copyright
 
