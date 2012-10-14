@@ -1,0 +1,8 @@
+# rdoc generated
+rdoc
+
+# bundler
+.bundle
+
+# jeweler generated
+pkg
