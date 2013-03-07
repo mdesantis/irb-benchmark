@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "irb-benchmark"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maurizio De Santis"]
-  s.date = "2012-10-14"
+  s.date = "2013-03-07"
   s.description = "irb-benchmark wraps irb commands in a Benchmark.measure{ ... } block and displays \nthe results after the command execution"
   s.email = "desantis.maurizio@gmail.com"
   s.extra_rdoc_files = [
@@ -23,17 +23,19 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "irb-benchmark.gemspec",
+    "lib/irb-benchmark.rb",
     "lib/irb_benchmark.rb",
     "lib/irb_benchmark/irb_ext.rb"
   ]
   s.homepage = "http://github.com/ProGNOMmers/irb-benchmark"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "2.0.1"
   s.summary = "Auto-benchmarking of irb commands"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 3
+    s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
