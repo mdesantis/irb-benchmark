@@ -1,0 +1,1 @@
+require 'irb_benchmark'

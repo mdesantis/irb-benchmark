@@ -10,9 +10,9 @@ module IrbBenchmark
 
     def print(bm)
       if defined?(Wirb) and (!defined?(FancyIrb) || FancyIrb[:colorize, :output])
-        $stdout.print Wirb.colorize_result bm.inspect
+        $stdout.print Wirb.colorize_result bm.to_s
       else
-        $stdout.print bm.inspect
+        $stdout.print bm.to_s
       end
     end
 
