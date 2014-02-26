@@ -1,8 +1,6 @@
 # IrbBenchmark
 
-## Description
-
-It wraps `irb` commands evaluations in a `Benchmark.measure{ ... }` block and displays the results after the command execution. Example:
+[IrbBenchmark](https://github.com/mdesantis/irb-benchmark) wraps `irb` commands evaluations in a `Benchmark.measure{ ... }` block and displays the results after the command execution. Example:
 
 ```
 irb(main):001:0> sleep 1
