@@ -1,4 +1,4 @@
-# IrbBenchmark
+# [IrbBenchmark](https://github.com/mdesantis/irb-benchmark)
 
 [IrbBenchmark](https://github.com/mdesantis/irb-benchmark) wraps `irb` commands evaluations in a `Benchmark.measure{ ... }` block and displays the results after the command execution. Example:
 
