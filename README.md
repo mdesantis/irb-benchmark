@@ -59,6 +59,6 @@ Fell free to open an [issue](https://github.com/ProGNOMmers/irb-benchmark/issues
 ## Thanks to
 [janlelis](https://github.com/janlelis) and its [fancy_irb](https://github.com/janlelis/fancy_irb) which saved me from spending time to discover how to monkey-patch `Irb` :-)
 
-## Copyright
+## License
 
-Copyright (c) 2012-2014 Maurizio De Santis. See [LICENSE](LICENSE.txt) for further details.
+Copyright (c) 2012-2014 Maurizio De Santis. MIT license (see [LICENSE](LICENSE.txt) for further details)
