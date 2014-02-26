@@ -61,4 +61,4 @@ Fell free to open an [issue](https://github.com/ProGNOMmers/irb-benchmark/issues
 
 ## License
 
-Copyright (c) 2012-2014 Maurizio De Santis. MIT license (see [LICENSE](LICENSE.txt) for further details)
+Copyright (c) 2012-2014 Maurizio De Santis. [MIT license](LICENSE.txt)
