@@ -57,7 +57,7 @@ The usage with FancyIrb alters the benchmark measures adding a small overhead.
 Fell free to open an [issue](https://github.com/ProGNOMmers/irb-benchmark/issues) for problems or feature requests, or fork it and make a pull request.
 
 ## Thanks to
-[janlelis](https://github.com/janlelis) and its [fancy_irb](https://github.com/janlelis/fancy_irb) which saved me from spending time to discover how to monkey-patch Irb :-)
+[janlelis](https://github.com/janlelis) and its [fancy_irb](https://github.com/janlelis/fancy_irb) which saved me from spending time to discover how to monkey-patch `Irb` :-)
 
 ## Copyright
 
