@@ -44,7 +44,7 @@ Note that the former option can be used with irbtools too, so it is the preferre
 IrbBenchmark.enabled = true / false
 ```
 
-## [Wirb](https://github.com/janlelis/wirb) / irbtools integration
+## [Wirb](https://github.com/janlelis/wirb) / [irbtools](https://github.com/janlelis/irbtools) integration
 
 It auto-detects Wirb presence and [FancyIrb](https://github.com/janlelis/fancy_irb) configuration for colorized output (both are used by the well-known [irbtools](https://github.com/janlelis/irbtools) gem).
 
