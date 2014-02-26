@@ -6,9 +6,9 @@ It wraps irb evaluations in a `Benchmark.measure{ ... }` block and displays
 the results after the command execution. Example:
 
 ```
->> Array.new(1_000_000) { rand }
-  0.090000   0.000000   0.090000 (  0.098862)
-[0.09192661098573907, ...
+irb(main):001:0> sleep 1
+  0.000000   0.000000   0.000000 (  1.000323)
+=> 1
 ```
 
 ## Installation
