@@ -13,11 +13,11 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
+  # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "irb-benchmark"
-  gem.homepage = "http://github.com/ProGNOMmers/irb-benchmark"
+  gem.homepage = "http://github.com/mdesantis/irb-benchmark"
   gem.license = "MIT"
-  gem.summary = %Q{Auto-benchmarking of irb commands}
+  gem.summary = %Q{irb commands auto-benchmarking}
   gem.description = %Q{irb-benchmark wraps irb commands in a Benchmark.measure{ ... } block and displays 
 the results after the command execution}
   gem.email = "desantis.maurizio@gmail.com"
@@ -25,6 +25,21 @@ the results after the command execution}
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
+
+require 'rake/testtask'
+Rake::TestTask.new(:test) do |test|
+  test.libs << 'lib' << 'test'
+  test.pattern = 'test/**/test_*.rb'
+  test.verbose = true
+end
+
+desc "Code coverage detail"
+task :simplecov do
+  ENV['COVERAGE'] = "true"
+  Rake::Task['test'].execute
+end
+
+task :default => :test
 
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
