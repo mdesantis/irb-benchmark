@@ -29,11 +29,17 @@ $ irb -rirb-benchmark
 
 #### Classic `require`
 
-`require 'irb-benchmark'` (it can be used with irbtools too)
+```ruby
+require 'irb-benchmark'
+```
 
-#### irbtools option
+#### [irbtools](https://github.com/janlelis/irbtools) option
 
-`Irbtools.add_library :irb_benchmark, late: true`
+```ruby
+Irbtools.add_library :irb_benchmark, late: true
+```
+
+Note that the former option can be used with [irbtools](https://github.com/janlelis/irbtools) too, so it is the preferred.
 
 ### Enabling / disabling
 
