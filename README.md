@@ -27,8 +27,13 @@ $ irb -rirb-benchmark
 
 ### In `.irbrc`
 
-* classic require: `require 'irb-benchmark'`
-* irbtools option: `Irbtools.add_library :irb_benchmark, late: true` (require can be used with irbtools too)
+#### Classic `require`
+
+`require 'irb-benchmark'` (it can be used with irbtools too)
+
+#### irbtools option
+
+`Irbtools.add_library :irb_benchmark, late: true`
 
 ### Enabling / disabling
 
