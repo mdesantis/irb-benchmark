@@ -38,7 +38,7 @@ require 'irb-benchmark'
 Irbtools.add_library :irb_benchmark, late: true
 ```
 
-Note that the former option can be used with [irbtools](https://github.com/janlelis/irbtools) too, so it is the preferred.
+Note that the former option can be used with irbtools too, so it is the preferred.
 
 ### Enabling / disabling
 
@@ -52,7 +52,7 @@ It auto-detects [Wirb](https://github.com/janlelis/wirb) presence and [FancyIrb]
 
 ## Known issues
 
-The usage with FancyIrb alters the benchmark measures adding a small overhead; I'm working on it.
+The usage with FancyIrb alters the benchmark measures adding a small overhead.
 
 ## Bugs, feature requests, pull requests
 
