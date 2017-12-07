@@ -1,5 +1,10 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem "minitest", "~> 5.2.3", group: :test
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
 
-gem "jeweler", "~> 2.0.1", group: :development
+gem 'minitest', group: :test
+
+gem 'jeweler', group: :development
