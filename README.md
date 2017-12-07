@@ -47,8 +47,7 @@ preferred.
 IrbBenchmark.enabled = true / false
 ```
 
-## [Wirb](https://github.com/janlelis/wirb) /
-[irbtools](https://github.com/janlelis/irbtools) integration
+## [Wirb](https://github.com/janlelis/wirb) / [irbtools](https://github.com/janlelis/irbtools) integration
 
 It auto-detects [Wirb](https://github.com/janlelis/wirb) presence and
 [FancyIrb](https://github.com/janlelis/fancy_irb) configuration for colorized
