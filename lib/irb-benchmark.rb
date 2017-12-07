@@ -1,1 +1,1 @@
-require 'irb_benchmark'
+require 'irb_benchmark' # rubocop:disable Naming/FileName

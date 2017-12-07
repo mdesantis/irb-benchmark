@@ -7,7 +7,7 @@ class TestIrbBenchmark < MiniTest::Test
   end
 
   def test_print
-    bm = Benchmark.measure { }
+    bm = Benchmark.measure {}
     $stdout = @stdout
     IrbBenchmark.print bm
     $stdout.rewind
